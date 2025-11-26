@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Learning React",
+    "author": "Alex Banks",
+    "price": 299.99,
+    "availability": "in stock"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "price": 199.5,
+    "availability": "in stock"
+  },
+  {
+    "id": 3,
+    "title": "You Don’t Know JS",
+    "author": "Kyle Simpson",
+    "price": 249.0,
+    "availability": "out of stock"
+  },
+  {
+    "id": 4,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "price": 349.0,
+    "availability": "in stock"
+  }
+]

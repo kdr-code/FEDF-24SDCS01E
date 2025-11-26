@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment 5 - Registration Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        form { max-width: 400px; }
+        .field { margin-bottom: 12px; }
+        label { display: block; margin-bottom: 4px; }
+        input, textarea { width: 100%; padding: 6px; }
+        .error { color: red; font-size: 0.85rem; }
+        .success { color: green; font-size: 0.95rem; margin-top: 10px; }
+        .valid { border: 2px solid green; }
+        .invalid { border: 2px solid red; }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form id="registerForm" novalidate>
+        <div class="field">
+            <label for="fullName">Full Name</label>
+            <input id="fullName" type="text" required>
+            <div class="error" id="nameError"></div>
+        </div>
+
+        <div class="field">
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+            <div class="error" id="emailError"></div>
+        </div>
+
+        <div class="field">
+            <label for="password">Password</label>
+            <input id="password" type="password" required>
+            <div class="error" id="passwordError"></div>
+        </div>
+
+        <div class="field">
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="tel" required>
+            <div class="error" id="phoneError"></div>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <div id="successMessage" class="success"></div>
+
+    <script src="exp5.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.app-root {
+  min-height: 100vh;
+}
+
+.navbar {
+  background: #1f2937;
+  color: #fff;
+  padding: 10px 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.navbar a.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.page {
+  padding: 16px;
+}
+
+.book-list {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.book-card {
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.book-card h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.book-card a {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.details {
+  max-width: 600px;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.not-found {
+  text-align: center;
+  padding: 40px 0;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment 6 - Weather App</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 400px; margin: auto; text-align: center; }
+        input { padding: 6px; width: 70%; }
+        button { padding: 7px 14px; margin-left: 4px; cursor: pointer; }
+        .result { margin-top: 20px; }
+        .error { color: red; margin-top: 10px; }
+        .info { color: gray; font-size: 0.9rem; margin-top: 10px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Weather App</h1>
+
+    <input id="cityInput" type="text" placeholder="Enter city name">
+    <button id="searchBtn">Get Weather</button>
+
+    <div class="info" id="lastCityInfo"></div>
+
+    <div class="result" id="weatherResult"></div>
+    <div class="error" id="errorMsg"></div>
+</div>
+
+<script src="exp6.js"></script>
+</body>
+</html>
